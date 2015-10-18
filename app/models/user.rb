@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "Audio<br>Story",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.asset_path("refer/images/cream-tooltip@2x.png")
         },
         {
             'count' => 10,
             "html" => "Original BEARIORS<br>postcard",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/images/truman@2x.png")
         },
         {
             'count' => 25,
             "html" => "Entire Postcard<br>Collection",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/images/winston@2x.png")
         },
         {
             'count' => 50,
             "html" => "Signed Copy<br>First Script",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/images/blade-explain@2x.png")
         }
     ]
 
